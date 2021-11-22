@@ -1,0 +1,21 @@
+#search-container{
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+}
+*{
+    font-size: 1.1em;
+}
+input{
+    padding: 1vw;
+    text-transform: uppercase;
+}
+#roster{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    padding: 1vw;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
